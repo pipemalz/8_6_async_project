@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather landing page</title>
+    <script cors src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Pink_Floyd_logo.svg" alt="Pink Floyd Logo" class="logo__img">
+        </div>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li>Bio</li>
+                <li>Songs</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="hero">
+            <img src="img/pinkfloyd.png" alt="" class="hero__img">
+            <p class="hero__bio">
+                Pink Floyd es una banda británica de rock progresivo y psicodélico formada en 1965 en Londres, Reino Unido. La banda está compuesta por Syd Barrett, Nick Mason, Roger Waters, Richard Wright y David Gilmour. Durante su carrera, Pink Floyd se convirtió en una de las bandas más influyentes e innovadoras de la historia del rock, con un sonido distintivo que combinaba música experimental, letras poéticas y espectáculos de luz y sonido innovadores.
+            </p>
+        </div>
+        <section class="songs">
+            <h1  class="songs__title">Albums</h1>
+            <div class="songs__albums">
+                <button class="songs__btn" id="DARK_SIDE_OF_THE_MOON">Dark Side of The Moon</button>
+                <button class="songs__btn" id="THE_WALL">The Wall</button>
+                <button class="songs__btn" id="ANIMALS">Animals</button>
+                <button class="songs__btn" id="WISH_YOU_WERE_HERE">Wish You Were Here</button>
+                <button class="songs__btn" id="ATOM_HEART_MOTHER">Atom Heart Mother</button>
+                <button class="songs__btn" id="MEDDLE">Meddle</button>
+                <button class="songs__btn" id="RANDOM">Random songs</button>
+            </div>
+            <div class="videos"></div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p>Proyecto para el Curso de Asincronismo con Javascript de Platzi</p>
+        <p>Made by pipemalz</p>
+    </footer>
+</body>
+</html>

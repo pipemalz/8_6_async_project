@@ -1,0 +1,25 @@
+{
+  "name": "8_6_async_project",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de asincronismo en javascript de platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipemalz/8_6_async_project.git"
+  },
+  "keywords": [
+    "javascript",
+    "async",
+    "node",
+    "proyect"
+  ],
+  "author": "pipemalz <sinister012@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pipemalz/8_6_async_project/issues"
+  },
+  "homepage": "https://github.com/pipemalz/8_6_async_project#readme"
+}

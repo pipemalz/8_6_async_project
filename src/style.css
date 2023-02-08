@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Noto Serif', serif;
+}
+
+body{
+    background-color: #222;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    height: auto;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logo{
+    width: 150px;
+    max-width: 800px;
+}
+
+.logo__img{
+    filter: invert(100%);
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav__ul{
+    display: flex;
+    gap: 50px;
+}
+
+.nav__ul > li{
+    list-style-type: none;
+    font-size: 3.2rem;
+    color: antiquewhite;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.9)
+}
+.hero__img{
+    width: 100%;
+    max-width: 1000px;
+}
+.hero__bio{
+    padding: 30px;
+    align-self: center;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+}
+
+.songs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.songs__title{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 7rem;
+}
+
+.songs__albums{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.songs__btn{
+    min-width: 210px;
+    height: 40px;
+    background-color: rgb(250, 235, 215);
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+.songs__btn:hover{
+    background-color: black;
+    color: antiquewhite;
+    box-shadow: 1px 1px 12px rgb(250, 235, 215, 0.3);
+}
+
+.videos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video-container{
+    background: rgb(254,0,0);
+    background: linear-gradient(137deg, rgba(254,0,0,1) 10%, rgba(252,156,31,1) 25%, rgba(255,255,1,1) 43%, rgba(145,233,111,1) 60%, rgba(0,204,255,1) 75%, rgba(156,49,162,1) 90%, rgba(102,206,0,1) 4650%);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.video-content{
+    background-color: black;
+    border-radius: 5px;
+}
+
+.video-thumbnail{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.video-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 20px; */
+    height: 100px;
+    background-color: black;
+}
+
+.footer p{
+    font-size: 2.4rem;
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 1580px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    .hero__bio{
+        font-size: 2.4rem;
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    .hero__bio{
+        font-size: 1.8rem;
+    }
+    
+}
